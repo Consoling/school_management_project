@@ -53,9 +53,9 @@ Visit http://localhost:3000 to access the application.
 
 ## Technologies Used
 Frontend: Next.js V14.2.24, Tailwind V4.0, Vanilla CSS
-Backend: Node.js, Express (Optional if your backend is separate)
-Database: MongoDB or MySQL (depending on your choice)
-Authentication: JWT (for secure login)
+Backend: Node.js, Express 
+Database: PostgreSQL
+Authentication: JWT (for secure login), OAuth 2.0
 ## Tailwind CSS V4.0 Changes
 The Tailwind CSS V4.0 used in this project includes some major changes compared to previous versions. Please refer to the official blog post for a detailed breakdown of these changes:
 
