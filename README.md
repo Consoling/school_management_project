@@ -35,28 +35,31 @@ The main goal of the **AZSH School Management Project** is to provide a seamless
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/yourusername/azsh-school-management.git
+   ```bash
+   git clone https://github.com/Consoling/school_management_project.git
 
-2. Navigate to the project directory:
+Navigate to the project directory:
+
+bash
 cd school_management_project
-
-3. Install the required dependencies:
+ 
+Install the required dependencies:
 npm install
 
-4. Run the development server:
+Run the development server:
 npm start
 
-markdown
-Copy
-
-Visit `http://localhost:3000` to access the application.
+Visit http://localhost:3000 to access the application.
 
 ## Technologies Used
+Frontend: Next.js V14.2.24, Tailwind V4.0, Vanilla CSS
+Backend: Node.js, Express (Optional if your backend is separate)
+Database: MongoDB or MySQL (depending on your choice)
+Authentication: JWT (for secure login)
+## Tailwind CSS V4.0 Changes
+The Tailwind CSS V4.0 used in this project includes some major changes compared to previous versions. Please refer to the official blog post for a detailed breakdown of these changes:
 
-- **Frontend**: React.js, HTML, CSS
-- **Backend**: Node.js, Express (Optional if your backend is separate)
-- **Database**: MongoDB or MySQL (depending on your choice)
-- **Authentication**: JWT (for secure login)
+https://tailwindcss.com/blog/tailwindcss-v4-alpha
 
 ## Contributing
 
